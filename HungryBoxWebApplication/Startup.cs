@@ -31,7 +31,7 @@ namespace HungryBoxWebApplication
             services.AddTransient<IAppSettings, AppSettings>();
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = "MenuPublisher", Version = "v1" });
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "HungryBox", Version = "v1" });
             });
         }
 

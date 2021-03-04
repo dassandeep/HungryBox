@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  hungryboxwebapplication:
+    image: ${DOCKER_REGISTRY-}hungryboxwebapplication
+    build:
+      context: .
+      dockerfile: Dockerfile
